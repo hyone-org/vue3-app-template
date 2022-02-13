@@ -1,0 +1,79 @@
+import { Meta, Story, Canvas, ArgsTable } from "@storybook/addon-docs";
+import { ref } from "vue";
+import BInput from "./b-input.vue";
+
+<Meta
+  title="Componentes/Atoms/Input"
+  component={BInput}
+  argTypes={{
+    label: {
+      control: { type: "text" },
+    },
+  }}
+  decorators={[
+    () => ({
+      template:
+        '<div style="padding: 16px; display: flex; flex-direction: column;"><story /></div>',
+    }),
+  ]}
+/>
+
+export const Template = (args) => ({
+  setup() {
+    const data = ref();
+    return { args, data };
+  },
+  template: '<BInput v-bind="args" v-model="data" />',
+});
+
+## Card
+
+Componente visual para o botão
+
+### Uso normal
+
+<Canvas>
+  <Story
+    name="Uso normal"
+    args={{ default: "Default", label: "Uso normal" }}
+    parameters={{
+      layout: "centered",
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+### Tipo
+
+<Canvas inline={false}>
+  <Story
+    name="Tipo/text"
+    args={{ default: "text", label: "Text", type: "text" }}
+    parameters={{
+      layout: "centered",
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+  <Story
+    name="Tipo/number"
+    args={{ default: "number", label: "Number", type: "number" }}
+    parameters={{
+      layout: "centered",
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+  <Story
+    name="Tipo/date"
+    args={{ default: "date", label: "Date", type: "date" }}
+    parameters={{
+      layout: "centered",
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+<ArgsTable of={BInput} />
