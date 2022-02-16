@@ -13,7 +13,7 @@
       "@plugins/*": ["./src/plugins/*"],
       "@router/*": ["./src/router/*"],
       "@services/*": ["./src/services/*"],
-      "@settings/*": ["./config/settings"],
+      "@settings/*": ["./configs/settings"],
       "@utils/*": ["./src/utils/*"]
     }
   },

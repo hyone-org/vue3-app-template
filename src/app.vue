@@ -15,5 +15,5 @@ const layout = computed(() => route?.meta?.layout || PINK_EMPTY_LAYOUT);
 </script>
 
 <style lang="scss">
-@import '~@assets/styles';
+
 </style>

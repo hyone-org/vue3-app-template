@@ -6,20 +6,17 @@
         src="@assets/images/logo_parceiro.svg"
       >
     </div>
-
-    <SessionCard @login="handleLogin" />
   </div>
 </template>
 
 <script setup>
-import { useRouter } from 'vue-router';
-import { SessionCard } from '@modules/sessions';
+// import { useRouter } from 'vue-router';
 
-const $router = useRouter();
+// const $router = useRouter();
 
-const handleLogin = () => {
-  $router.push({ name: 'Home' });
-};
+// const handleLogin = () => {
+//   $router.push({ name: 'Home' });
+// };
 </script>
 
 <style lang="scss">

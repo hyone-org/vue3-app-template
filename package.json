@@ -10,11 +10,10 @@
     "start:storybook": "http-server dist/storybook"
   },
   "dependencies": {
-    "@hyone/core-ui": "^1.20.0",
+    "@hyone/core-ui": "^1.23.0",
     "axios": "^0.25.0",
     "flush-promises": "^1.0.2",
     "maska": "^1.5.0",
-    "material-components-web": "^13.0.0",
     "vue": "^3.2.26",
     "vue-router": "4"
   },

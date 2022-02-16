@@ -2,8 +2,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
 const webpack = require('webpack');
-const { alias } = require('./config/webpack/alias-config');
-const { rules } = require('./config/webpack/rules-config');
+const { alias } = require('./configs/project/alias-config');
+const { rules } = require('./configs/project/rules-config');
 
 module.exports = {
   devtool: 'source-map',

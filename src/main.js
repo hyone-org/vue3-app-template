@@ -1,13 +1,12 @@
 import { createApp } from 'vue';
 import { router } from '@router';
-import { BuserPartnersUIPlugin, LayoutPlugin, SentryPlugin } from '@plugins';
+import { UIPlugin, LayoutPlugin } from '@plugins';
 import Maska from 'maska';
 import App from './app.vue';
 
 createApp(App)
-  .use(SentryPlugin, { router })
   .use(router)
-  .use(BuserPartnersUIPlugin)
+  .use(UIPlugin)
   .use(LayoutPlugin)
   .use(Maska)
   .mount('#root');

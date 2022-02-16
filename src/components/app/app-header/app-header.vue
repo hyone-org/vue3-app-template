@@ -13,15 +13,15 @@
     </div>
 
     <div class="app-header__section-action">
-      <AppHeaderButton to="/viagens">
+      <AppHeaderButton>
         Viagens
       </AppHeaderButton>
 
-      <AppHeaderButton to="/avisos">
+      <AppHeaderButton>
         Avisos
       </AppHeaderButton>
 
-      <AppHeaderButton to="/incidentes">
+      <AppHeaderButton>
         Incidentes
       </AppHeaderButton>
 
@@ -29,11 +29,11 @@
 
       <AppHeaderButton>Financeiro</AppHeaderButton>
 
-      <AppHeaderButton to="/relatorios">
+      <AppHeaderButton>
         Relatório
       </AppHeaderButton>
 
-      <AppHeaderButton to="/ajuda">
+      <AppHeaderButton>
         Ajuda
       </AppHeaderButton>
 
