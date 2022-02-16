@@ -8,6 +8,7 @@ exports.alias = {
   '@api': path.resolve(baseUrl, 'src/api'),
   '@assets': path.resolve(baseUrl, 'src/assets'),
   '@components': path.resolve(baseUrl, 'src/components'),
+  '@composables': path.resolve(baseUrl, 'src/composables'),
   '@layouts': path.resolve(baseUrl, 'src/layouts'),
   '@modules': path.resolve(baseUrl, 'src/modules'),
   '@pages': path.resolve(baseUrl, 'src/pages'),

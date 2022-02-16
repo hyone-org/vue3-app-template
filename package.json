@@ -1,11 +1,11 @@
 {
-  "name": "vue3-template",
+  "name": "@hyone/vue3-app-template",
   "version": "0.0.0",
   "scripts": {
     "dev:web": "webpack serve --mode=development",
     "build:web": "webpack build --mode=production",
     "start:web": "http-server dist/application",
-    "dev:storybook": "start-storybook -p 6006 -c config/.storybook",
+    "dev:storybook": "start-storybook -p 6006 -c configs/storybook",
     "build:storybook": "build-storybook -c config/.storybook -o ./dist/storybook",
     "start:storybook": "http-server dist/storybook"
   },

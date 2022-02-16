@@ -6,7 +6,7 @@
       weight="bold"
       class="register-step__title"
     >
-      Cadastre-se e viaje de Buser.
+      Cadastre-se.
     </b-text>
 
     <b-text

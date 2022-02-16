@@ -34,7 +34,6 @@
       behavior="block"
       :is-accessible="true"
       variant="outlined"
-      link="https://www.buser.com.br/parceiros"
     >
       Quero ser parceiro
     </b-button>

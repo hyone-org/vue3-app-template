@@ -1,13 +1,12 @@
-import { app } from "@storybook/vue3";
-import { BuserPartnersUIPlugin } from "@plugins/buser-partners-ui-plugin";
-import Maska from "maska";
-import "@assets/styles/index.scss";
-import { transformSource, tokenFiles } from "./helper";
+import { app } from '@storybook/vue3';
+import { UIPlugin } from '@plugins/ui-plugin';
+import Maska from 'maska';
+import { transformSource, tokenFiles } from './helper';
 
-app.use(BuserPartnersUIPlugin).use(Maska);
+app.use(UIPlugin).use(Maska);
 
 export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
+  actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {
     matchers: {
       color: /(background|color)$/i,

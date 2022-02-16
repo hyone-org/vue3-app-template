@@ -1,5 +1,5 @@
 import { delay } from '@utils/promises/delay';
-import { OneChurchAPI } from '@api';
+import { CoreAPI } from '@api';
 import { Settings } from '@settings';
 
 const forgotPassword = async (userId) => {
@@ -12,7 +12,7 @@ const forgotPassword = async (userId) => {
     return {};
   }
 
-  return OneChurchAPI.forgotPassword(params)
+  return CoreAPI.forgotPassword(params)
     .then(({ data }) => data)
     .catch((error) => Promise.reject(error.response));
 };

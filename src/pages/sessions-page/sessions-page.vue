@@ -1,10 +1,7 @@
 <template>
   <div class="login-page">
     <div class="login-page__section-image">
-      <img
-        class="login-page__logo-image"
-        src="@assets/images/logo_parceiro.svg"
-      >
+      Deu
     </div>
   </div>
 </template>

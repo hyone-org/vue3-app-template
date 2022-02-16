@@ -56,7 +56,7 @@ export const MockUser = {
               endereco_referencia: 'Estacionamento ao lado do Terminal Rodoviário Tietê e próximo da Estação Portuguesa Tietê de Metrô.',
               description: 'O local de embarque fica dentro do estacionamento particular ao lado da rodoviária Tietê. Caso venha de carro, entre pela Rua Voluntários da Pátria 344. Caso venha de metrô, pare na estação Tietê, procure a saída D - SANTANA, TUCURUVI, e saia na Rua Marechal Odylio Denys, ande 30 metros para a esquerda e entre na entrada do estacionamento, número 138.\r\nO embarque fica próximo as 2 chaminés localizadas dentro do estacionamento.',
               classification: 'estacionamento',
-              mapurl: 'http://bit.ly/busersp',
+              mapurl: 'http://bit.ly/blah',
               coords: {
                 latitude: -23.517392,
                 longitude: -46.6288297,
@@ -200,7 +200,7 @@ export const MockUser = {
               endereco_referencia: 'Estacionamento ao lado do Terminal Rodoviário Tietê e próximo da Estação Portuguesa Tietê de Metrô.',
               description: 'O local de embarque fica dentro do estacionamento particular ao lado da rodoviária Tietê. Caso venha de carro, entre pela Rua Voluntários da Pátria 344. Caso venha de metrô, pare na estação Tietê, procure a saída D - SANTANA, TUCURUVI, e saia na Rua Marechal Odylio Denys, ande 30 metros para a esquerda e entre na entrada do estacionamento, número 138.\r\nO embarque fica próximo as 2 chaminés localizadas dentro do estacionamento.',
               classification: 'estacionamento',
-              mapurl: 'http://bit.ly/busersp',
+              mapurl: 'http://bit.ly/blah',
               coords: {
                 latitude: -23.517392,
                 longitude: -46.6288297,
@@ -340,7 +340,7 @@ export const MockUser = {
               endereco_referencia: 'Estacionamento ao lado do Terminal Rodoviário Tietê e próximo da Estação Portuguesa Tietê de Metrô.',
               description: 'O local de embarque fica dentro do estacionamento particular ao lado da rodoviária Tietê. Caso venha de carro, entre pela Rua Voluntários da Pátria 344. Caso venha de metrô, pare na estação Tietê, procure a saída D - SANTANA, TUCURUVI, e saia na Rua Marechal Odylio Denys, ande 30 metros para a esquerda e entre na entrada do estacionamento, número 138.\r\nO embarque fica próximo as 2 chaminés localizadas dentro do estacionamento.',
               classification: 'estacionamento',
-              mapurl: 'http://bit.ly/busersp',
+              mapurl: 'http://bit.ly/blah',
               coords: {
                 latitude: -23.517392,
                 longitude: -46.6288297,
@@ -428,7 +428,7 @@ export const MockUser = {
               endereco_referencia: 'Estacionamento em frente as ruínas do antigo Hotel Glória, ao lado do Posto de Gasolina GNV Glória.',
               description: 'O local de embarque fica situado na Avenida Beira Mar 3587, no estacionamento ao lado do Posto de Gasolina GNV Glória. Em frente ao Hotel da glória.',
               classification: 'estacionamento',
-              mapurl: 'http://bit.ly/buserrj',
+              mapurl: 'http://bit.ly/blah',
               coords: {
                 latitude: -22.9217801,
                 longitude: -43.1724609,
@@ -668,7 +668,7 @@ export const MockUser = {
               endereco_referencia: 'Estacionamento ao lado do Terminal Rodoviário Tietê e próximo da Estação Portuguesa Tietê de Metrô.',
               description: 'O local de embarque fica dentro do estacionamento particular ao lado da rodoviária Tietê. Caso venha de carro, entre pela Rua Voluntários da Pátria 344. Caso venha de metrô, pare na estação Tietê, procure a saída D - SANTANA, TUCURUVI, e saia na Rua Marechal Odylio Denys, ande 30 metros para a esquerda e entre na entrada do estacionamento, número 138.\r\nO embarque fica próximo as 2 chaminés localizadas dentro do estacionamento.',
               classification: 'estacionamento',
-              mapurl: 'http://bit.ly/busersp',
+              mapurl: 'http://bit.ly/blah',
               coords: {
                 latitude: -23.517392,
                 longitude: -46.6288297,
@@ -863,7 +863,7 @@ export const MockUser = {
               endereco_referencia: 'Estacionamento ao lado do Terminal Rodoviário Tietê e próximo da Estação Portuguesa Tietê de Metrô.',
               description: 'O local de embarque fica dentro do estacionamento particular ao lado da rodoviária Tietê. Caso venha de carro, entre pela Rua Voluntários da Pátria 344. Caso venha de metrô, pare na estação Tietê, procure a saída D - SANTANA, TUCURUVI, e saia na Rua Marechal Odylio Denys, ande 30 metros para a esquerda e entre na entrada do estacionamento, número 138.\r\nO embarque fica próximo as 2 chaminés localizadas dentro do estacionamento.',
               classification: 'estacionamento',
-              mapurl: 'http://bit.ly/busersp',
+              mapurl: 'http://bit.ly/blah',
               coords: {
                 latitude: -23.517392,
                 longitude: -46.6288297,
@@ -1026,7 +1026,7 @@ export const MockUser = {
               endereco_referencia: 'Estacionamento ao lado do Terminal Rodoviário Tietê e próximo da Estação Portuguesa Tietê de Metrô.',
               description: 'O local de embarque fica dentro do estacionamento particular ao lado da rodoviária Tietê. Caso venha de carro, entre pela Rua Voluntários da Pátria 344. Caso venha de metrô, pare na estação Tietê, procure a saída D - SANTANA, TUCURUVI, e saia na Rua Marechal Odylio Denys, ande 30 metros para a esquerda e entre na entrada do estacionamento, número 138.\r\nO embarque fica próximo as 2 chaminés localizadas dentro do estacionamento.',
               classification: 'estacionamento',
-              mapurl: 'http://bit.ly/busersp',
+              mapurl: 'http://bit.ly/blah',
               coords: {
                 latitude: -23.517392,
                 longitude: -46.6288297,
@@ -1221,7 +1221,7 @@ export const MockUser = {
               endereco_referencia: 'Estacionamento ao lado do Terminal Rodoviário Tietê e próximo da Estação Portuguesa Tietê de Metrô.',
               description: 'O local de embarque fica dentro do estacionamento particular ao lado da rodoviária Tietê. Caso venha de carro, entre pela Rua Voluntários da Pátria 344. Caso venha de metrô, pare na estação Tietê, procure a saída D - SANTANA, TUCURUVI, e saia na Rua Marechal Odylio Denys, ande 30 metros para a esquerda e entre na entrada do estacionamento, número 138.\r\nO embarque fica próximo as 2 chaminés localizadas dentro do estacionamento.',
               classification: 'estacionamento',
-              mapurl: 'http://bit.ly/busersp',
+              mapurl: 'http://bit.ly/blah',
               coords: {
                 latitude: -23.517392,
                 longitude: -46.6288297,
@@ -1384,7 +1384,7 @@ export const MockUser = {
               endereco_referencia: 'Estacionamento ao lado do Terminal Rodoviário Tietê e próximo da Estação Portuguesa Tietê de Metrô.',
               description: 'O local de embarque fica dentro do estacionamento particular ao lado da rodoviária Tietê. Caso venha de carro, entre pela Rua Voluntários da Pátria 344. Caso venha de metrô, pare na estação Tietê, procure a saída D - SANTANA, TUCURUVI, e saia na Rua Marechal Odylio Denys, ande 30 metros para a esquerda e entre na entrada do estacionamento, número 138.\r\nO embarque fica próximo as 2 chaminés localizadas dentro do estacionamento.',
               classification: 'estacionamento',
-              mapurl: 'http://bit.ly/busersp',
+              mapurl: 'http://bit.ly/blah',
               coords: {
                 latitude: -23.517392,
                 longitude: -46.6288297,
@@ -1545,7 +1545,7 @@ export const MockUser = {
               endereco_referencia: 'Estacionamento ao lado do Terminal Rodoviário Tietê e próximo da Estação Portuguesa Tietê de Metrô.',
               description: 'O local de embarque fica dentro do estacionamento particular ao lado da rodoviária Tietê. Caso venha de carro, entre pela Rua Voluntários da Pátria 344. Caso venha de metrô, pare na estação Tietê, procure a saída D - SANTANA, TUCURUVI, e saia na Rua Marechal Odylio Denys, ande 30 metros para a esquerda e entre na entrada do estacionamento, número 138.\r\nO embarque fica próximo as 2 chaminés localizadas dentro do estacionamento.',
               classification: 'estacionamento',
-              mapurl: 'http://bit.ly/busersp',
+              mapurl: 'http://bit.ly/blah',
               coords: {
                 latitude: -23.517392,
                 longitude: -46.6288297,
@@ -1687,10 +1687,10 @@ export const MockUser = {
       checkpoint_idx: 1,
       checkin_status: 'travel_done',
       checkpoints_datetime: '{"0":{"checkin_open":"2022-02-01T19:35:32.947-03:00","checkin_closed":"2022-02-01T20:05:32.947-03:00"},"1":{"checkin_open":"2022-02-01T21:35:32.947-03:00"}}',
-      company_name: 'Buser',
-      empresa_name: 'Buser',
+      company_name: 'blah',
+      empresa_name: 'blah',
       empresa: {
-        name: 'Buser',
+        name: 'blah',
       },
       empresa_id: 1,
       driver_one: 'Cristiano Ronaldo da Silva',
@@ -1736,15 +1736,15 @@ export const MockUser = {
         foto_dut: 'https://www.checkauto.com.br/Blog/Imagem?ImagemId=50',
         foto_placa: 'https://extra.globo.com/incoming/13331306-425-d4e/w448/2014-735485115-img-20140721-wa0051_20140721.jpg?AWSAccessKeyId=kkk&Signature=xxxx&Expires=123123',
         foto_interna: 'https://mobilidadesampa.com.br/wp-content/uploads/2020/08/Onibus-wemobi.jpeg',
-        foto_seguro: 'https://buser-prod.s3.amazonaws.com/onibus/2020-03-10-LCUE/foto_seguro-19.pdf?AWSAccessKeyId=AKIAIKTD26PJNUEBV4XQ&Signature=tcKagGUC0CE%2Fzx%2FM6vWRu7PdzMM%3D&Expires=1584534556',
-        possui_plotagem_buser: true,
-        possui_seguro_buser: true,
+        foto_seguro: 'https://blah-prod.s3.amazonaws.com/onibus/2020-03-10-LCUE/foto_seguro-19.pdf?AWSAccessKeyId=AKIAIKTD26PJNUEBV4XQ&Signature=tcKagGUC0CE%2Fzx%2FM6vWRu7PdzMM%3D&Expires=1584534556',
+        possui_plotagem_blah: true,
+        possui_seguro_blah: true,
         pendente_em: '2018-07-03T18:23:00-02:00',
         jsondata: {
           features: [
             'telemetria',
             'camera_fadiga',
-            'plotagem_buser',
+            'plotagem_blah',
           ],
           licences: [
             'DER_PB',
@@ -1762,7 +1762,7 @@ export const MockUser = {
           },
           foto_externa: {
             numeracao: null,
-            foto: 'https://ogimg.infoglobo.com.br/rio/23940882-193-3b8/FT1086A/652/onibus-buser.jpg',
+            foto: 'https://ogimg.infoglobo.com.br/rio/23940882-193-3b8/FT1086A/652/onibus-blah.jpg',
             status: 'aprovado',
             mensagem: 'vai dar certo, só não sei como',
             data_vencimento: null,
@@ -1806,7 +1806,7 @@ export const MockUser = {
       },
       onibus_placa: 'DBZ6666',
       motorista_descansado: {},
-      modelo_venda: 'buser',
+      modelo_venda: 'blah',
       events: [
         {
           id: 12078,
@@ -1833,7 +1833,7 @@ export const MockUser = {
             endereco_referencia: 'Estacionamento ao lado do Terminal Rodoviário Tietê e próximo da Estação Portuguesa Tietê de Metrô.',
             description: 'O local de embarque fica dentro do estacionamento particular ao lado da rodoviária Tietê. Caso venha de carro, entre pela Rua Voluntários da Pátria 344. Caso venha de metrô, pare na estação Tietê, procure a saída D - SANTANA, TUCURUVI, e saia na Rua Marechal Odylio Denys, ande 30 metros para a esquerda e entre na entrada do estacionamento, número 138.\r\nO embarque fica próximo as 2 chaminés localizadas dentro do estacionamento.',
             classification: 'estacionamento',
-            mapurl: 'http://bit.ly/busersp',
+            mapurl: 'http://bit.ly/blah',
             coords: {
               latitude: -23.517392,
               longitude: -46.6288297,
@@ -1932,7 +1932,7 @@ export const MockUser = {
             endereco_referencia: 'Estacionamento ao lado do Terminal Rodoviário Tietê e próximo da Estação Portuguesa Tietê de Metrô.',
             description: 'O local de embarque fica dentro do estacionamento particular ao lado da rodoviária Tietê. Caso venha de carro, entre pela Rua Voluntários da Pátria 344. Caso venha de metrô, pare na estação Tietê, procure a saída D - SANTANA, TUCURUVI, e saia na Rua Marechal Odylio Denys, ande 30 metros para a esquerda e entre na entrada do estacionamento, número 138.\r\nO embarque fica próximo as 2 chaminés localizadas dentro do estacionamento.',
             classification: 'estacionamento',
-            mapurl: 'http://bit.ly/busersp',
+            mapurl: 'http://bit.ly/blah',
             coords: {
               latitude: -23.517392,
               longitude: -46.6288297,
@@ -2031,7 +2031,7 @@ export const MockUser = {
             endereco_referencia: 'Estacionamento ao lado do Terminal Rodoviário Tietê e próximo da Estação Portuguesa Tietê de Metrô.',
             description: 'O local de embarque fica dentro do estacionamento particular ao lado da rodoviária Tietê. Caso venha de carro, entre pela Rua Voluntários da Pátria 344. Caso venha de metrô, pare na estação Tietê, procure a saída D - SANTANA, TUCURUVI, e saia na Rua Marechal Odylio Denys, ande 30 metros para a esquerda e entre na entrada do estacionamento, número 138.\r\nO embarque fica próximo as 2 chaminés localizadas dentro do estacionamento.',
             classification: 'estacionamento',
-            mapurl: 'http://bit.ly/busersp',
+            mapurl: 'http://bit.ly/blah',
             coords: {
               latitude: -23.517392,
               longitude: -46.6288297,

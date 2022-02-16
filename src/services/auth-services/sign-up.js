@@ -1,4 +1,4 @@
-import { OneChurchAPI } from '@api';
+import { CoreAPI } from '@api';
 import { Settings } from '@settings';
 import { delay } from '@utils/promises/delay';
 // import { MockUser } from './mock-user';
@@ -26,7 +26,7 @@ const signUp = async ({
     return {};
   }
 
-  return OneChurchAPI.signUp(params)
+  return CoreAPI.signUp(params)
     .then(({ data }) => data)
     .catch((error) => Promise.reject(error.response));
 };

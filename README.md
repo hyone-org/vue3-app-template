@@ -1,4 +1,4 @@
-# Buser Partners
+# @hyone/vue3-app-template
 
 ## Instalação
 

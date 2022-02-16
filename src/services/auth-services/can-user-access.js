@@ -1,4 +1,4 @@
-import { OneChurchAPI } from '@api';
+import { CoreAPI } from '@api';
 import { Settings } from '@settings';
 // import { delay } from '@utils/promises/delay';
 
@@ -8,7 +8,7 @@ const canUserAccess = async () => {
     return true;
   }
 
-  return OneChurchAPI.whoAmI()
+  return CoreAPI.whoAmI()
     .then(({ data }) => data)
     .catch((error) => Promise.reject(error.response));
 };

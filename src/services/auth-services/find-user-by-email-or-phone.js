@@ -1,4 +1,4 @@
-import { OneChurchAPI } from '@api';
+import { CoreAPI } from '@api';
 import { Settings } from '@settings';
 import { delay } from '@utils/promises/delay';
 
@@ -18,7 +18,7 @@ const findUserByEmailOrPhone = async (emailOrPhone, grtoken = null) => {
     return {};
   }
 
-  return OneChurchAPI.findUserByEmailOrPhone(params)
+  return CoreAPI.findUserByEmailOrPhone(params)
     .then(({ data }) => data)
     .catch((error) => Promise.reject(error.response));
 };
