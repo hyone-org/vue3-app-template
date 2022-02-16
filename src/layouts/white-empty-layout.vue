@@ -1,5 +1,5 @@
 <template>
-  <main class="pink-empty-layout">
+  <main class="white-empty-layout">
     <slot />
   </main>
 </template>
@@ -15,6 +15,6 @@ export default {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: var(--color-pink-scale-700);
+  background-color: var(--color-white);
 }
 </style>

@@ -1,10 +1,10 @@
-import { ApplicationLayout, PinkEmptyLayout } from '@layouts';
+import { ApplicationLayout, WhiteEmptyLayout } from '@layouts';
 
 const LayoutPlugin = {
   install(Vue) {
     // eslint-disable-next-line vue/multi-word-component-names
     Vue.component('ApplicationLayout', ApplicationLayout);
-    Vue.component('PinkEmptyLayout', PinkEmptyLayout);
+    Vue.component('WhiteEmptyLayout', WhiteEmptyLayout);
   },
 };
 

@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h-button>Foi</h-button>
-    Bem vindo
+    <h-button>Testando</h-button>
   </div>
 </template>
 
@@ -9,4 +8,6 @@
 
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+
+</style>

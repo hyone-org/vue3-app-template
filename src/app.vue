@@ -8,9 +8,9 @@
 import { computed } from 'vue';
 import { useRoute } from 'vue-router';
 
-const PINK_EMPTY_LAYOUT = 'PinkEmptyLayout';
+const WHITE_EMPTY_LAYOUT = 'WhiteEmptyLayout';
 const route = useRoute();
-const layout = computed(() => route?.meta?.layout || PINK_EMPTY_LAYOUT);
+const layout = computed(() => route?.meta?.layout || WHITE_EMPTY_LAYOUT);
 
 </script>
 

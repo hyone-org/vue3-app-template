@@ -1,11 +1,13 @@
 <template>
+  <AppHeader />
+
   <AppMain>
     <slot />
   </AppMain>
 </template>
 
 <script setup>
-import { AppMain } from '@components/app';
+import { AppHeader, AppMain } from '@components/app';
 
 </script>
 

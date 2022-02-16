@@ -6,7 +6,7 @@ const routes = [
     path: '/', component: HomePage, name: 'Home', meta: { layout: 'ApplicationLayout' },
   },
   {
-    path: '/sessions', component: SessionsPage, name: 'Session', meta: { layout: 'PinkEmptyLayout' },
+    path: '/sessions', component: SessionsPage, name: 'Session', meta: { layout: 'WhiteEmptyLayout' },
   },
 ];
 
