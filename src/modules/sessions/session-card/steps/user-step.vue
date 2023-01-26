@@ -1,42 +1,46 @@
 <template>
   <SessionCardLayout @submit="handleRequest">
-    <b-text
+    <h-text
       tag="h3"
+      weight="bold"
       variant="h6"
-      emphasis="high"
-      class="user-step__title"
+      class="h-margin-bottom--small"
     >
       Entrar com a minha conta
-    </b-text>
+    </h-text>
 
-    <b-input
-      v-model="emailOrPhone"
-      type="text"
+    <h-input-field
       label="Email ou telefone"
-      behavior="block"
-      :is-invalid="isInvalid"
       :helper-text="helperText"
-      @update:model-value="handleInputUser"
-    />
+      :has-error="isInvalid"
+      class="h-margin-bottom--small"
+    >
+      <h-input
+        v-model="emailOrPhone"
+        type="text"
+        behavior="block"
+        @update:model-value="handleInputUser"
+      />
+    </h-input-field>
 
-    <b-button
+    <h-button
       behavior="block"
-      :is-disabled="isInvalidButton"
+      :disabled="isInvalidButton"
       :is-loading="isLoading"
       :is-accessible="true"
       type="submit"
       @click="handleRequest"
     >
       Próximo
-    </b-button>
+    </h-button>
 
-    <b-button
+    <h-button
       behavior="block"
-      :is-accessible="true"
       variant="outlined"
+      :is-accessible="true"
     >
-      Quero ser parceiro
-    </b-button>
+      Cadastrar-se
+    </h-button>
   </SessionCardLayout>
 </template>
 
@@ -61,7 +65,7 @@ const isInvalid = computed(() => (
   && hasText.value) || Boolean(errorText.value));
 
 const isInvalidButton = computed(() => isInvalid.value || !hasText.value);
-const helperText = computed(() => (errorText.value ? errorText.value : 'Digite um email ou telefone válido'));
+const helperText = computed(() => (errorText.value || (isInvalid.value && 'Digite um email ou telefone válido')) || '');
 
 const handleInputUser = () => {
   if (errorText.value) errorText.value = null;
@@ -87,9 +91,3 @@ const handleRequest = async () => {
     });
 };
 </script>
-
-<style lang="scss">
-.user-step__title {
-  margin-bottom: var(--size-scalable-small);
-}
-</style>

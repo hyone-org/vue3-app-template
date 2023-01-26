@@ -4,9 +4,9 @@
     mode="out-in"
     appear
   >
-    <div v-if="$slots.default">
+    <template v-if="$slots.default">
       <slot />
-    </div>
+    </template>
   </transition>
 </template>
 

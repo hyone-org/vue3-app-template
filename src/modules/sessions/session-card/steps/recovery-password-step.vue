@@ -1,13 +1,13 @@
 <template>
   <SessionCardLayout>
     <div class="recovery-password-step__icon">
-      <b-icon
+      <h-icon
         :icon="icon"
         size="extra-giant"
       />
     </div>
 
-    <b-text
+    <h-text
       align="center"
       variant="h6"
       emphasis="high"
@@ -15,25 +15,25 @@
       class="recovery-password-step__text"
     >
       {{ title }}
-    </b-text>
+    </h-text>
 
-    <b-text
+    <h-text
       align="center"
       variant="body1"
       emphasis="medium"
       class="recovery-password-step__text"
     >
       {{ text }}
-    </b-text>
+    </h-text>
 
-    <b-button
+    <h-button
       :is-accessible="true"
       behavior="block"
       variant="text"
       @click="handleActionLoginCard({ name: 'go', value: 'UserStep' })"
     >
       Voltar
-    </b-button>
+    </h-button>
   </SessionCardLayout>
 </template>
 
@@ -44,12 +44,12 @@ import SessionCardLayout from '../session-card-layout.vue';
 
 const statusDictionary = {
   success: {
-    icon: 'email',
+    icon: 'fa-solid fa-circle-check',
     title: 'Enviamos um email/SMS para você.',
     text: 'Siga as instruções do email/SMS para redefinir sua senha.',
   },
   error: {
-    icon: 'error',
+    icon: 'fa-solid fa-circle-exclamation',
     title: 'Tente novamente mais tarde.',
     text: 'Não conseguimos enviar instruções para seu email/celular.',
   },

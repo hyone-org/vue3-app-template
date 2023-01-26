@@ -1,24 +1,24 @@
 <template>
   <SessionCardLayout @submit="handleRequest">
-    <b-text
+    <h-text
       tag="h3"
       size="extra-large"
       weight="bold"
       class="register-step__title"
     >
       Cadastre-se.
-    </b-text>
+    </h-text>
 
-    <b-text
+    <h-text
       tag="h3"
       size="extra-small"
       weight="regular"
       class="register-step__subtitle"
     >
       Não encontramos esse email ou telefone
-    </b-text>
+    </h-text>
 
-    <b-input
+    <h-input
       v-model="nameInput"
       :is-invalid="nameInputInvalid && isString(nameInput)"
       helper-text="Campo obrigatório"
@@ -27,7 +27,7 @@
       label="Nome completo"
     />
 
-    <b-input
+    <h-input
       v-model="emailInput"
       :is-invalid="emailInputInvalid && isString(emailInput)"
       behavior="block"
@@ -36,7 +36,7 @@
       :helper-text="emailInputHelperText"
     />
 
-    <b-input
+    <h-input
       v-model="phoneInput"
       :is-invalid="phoneInputInvalid && isString(phoneInput)"
       behavior="block"
@@ -46,7 +46,7 @@
       :helper-text="phoneInputHelperText"
     />
 
-    <b-input
+    <h-input
       v-model="passwordInput"
       label="Senha"
       behavior="block"
@@ -58,7 +58,7 @@
       @click-icon-right="handleShowPassword"
     />
 
-    <b-button
+    <h-button
       behavior="block"
       color="secondary"
       :is-disabled="buttonRegisterDisabled"
@@ -66,7 +66,7 @@
       @click="handleRequest"
     >
       Cadastrar
-    </b-button>
+    </h-button>
   </SessionCardLayout>
 </template>
 

@@ -1,11 +1,11 @@
 <template>
   <SessionCardLayout @submit="handleRequest">
-    <b-avatar
+    <h-avatar
       class="password-step__avatar"
       :src="userData.photo_url"
     />
 
-    <b-text
+    <h-text
       tag="h3"
       variant="h6"
       emphasis="high"
@@ -13,21 +13,25 @@
       class="password-step__title"
     >
       {{ userData.name }}
-    </b-text>
+    </h-text>
 
-    <b-input
-      v-model="passwordInput"
+    <h-input-field
       label="Senha"
-      behavior="block"
-      :icon-right="passwordInputIcon"
-      :type="passwordType"
-      :is-invalid="isInvalid"
+      class="h-margin-bottom--small"
+      :has-error="isInvalid"
       :helper-text="helperText"
-      @update:model-value="handleInputPasswordChange"
-      @click-icon-right="handleShowPassword"
-    />
+    >
+      <h-input
+        v-model="passwordInput"
+        behavior="block"
+        :icon-right="passwordInputIcon"
+        :type="passwordType"
+        @update:model-value="handleInputPasswordChange"
+        @click-icon-right="handleShowPassword"
+      />
+    </h-input-field>
 
-    <b-button
+    <h-button
       behavior="block"
       :is-disabled="isInvalidButton"
       :is-loading="isLoading"
@@ -35,25 +39,25 @@
       @click="handleRequest"
     >
       Entrar
-    </b-button>
+    </h-button>
 
-    <b-button
+    <h-button
       behavior="block"
       :is-accessible="true"
       variant="outlined"
       @click="handleActionLoginCard({ name: 'go', value: 'RecoveryPasswordStep'})"
     >
       Esqueci minha senha
-    </b-button>
+    </h-button>
 
-    <b-button
+    <h-button
       behavior="block"
       variant="text"
       :is-accessible="true"
       @click="handleActionLoginCard({ name: 'go', value: 'UserStep' })"
     >
       Voltar
-    </b-button>
+    </h-button>
   </SessionCardLayout>
 </template>
 

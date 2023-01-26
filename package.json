@@ -1,16 +1,18 @@
 {
   "name": "@hyone/vue3-app-template",
   "version": "0.0.0",
+  "license": "UNLICENSED",
+  "private": true,
   "scripts": {
     "dev:web": "webpack serve --mode=development",
     "build:web": "webpack build --mode=production",
     "start:web": "http-server dist/application",
     "dev:storybook": "start-storybook -p 6006 -c configs/storybook",
-    "build:storybook": "build-storybook -c config/.storybook -o ./dist/storybook",
+    "build:storybook": "build-storybook -c configs/storybook -o ./dist/storybook",
     "start:storybook": "http-server dist/storybook"
   },
   "dependencies": {
-    "@hyone/core-ui": "^1.23.0",
+    "@hyone/core-ui": "^1.29.0",
     "axios": "^0.25.0",
     "flush-promises": "^1.0.2",
     "maska": "^1.5.0",

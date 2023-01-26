@@ -6,7 +6,7 @@ import flushPromises from 'flush-promises';
 const mountSuspense = async ({
   component, loadingComponent, errorComponent, transitionComponent,
 }) => {
-  const BSuspense = resolveComponent('BSuspense');
+  const HSuspense = resolveComponent('h-suspense');
   const slots = {};
 
   const mainComponent = transitionComponent
@@ -19,7 +19,7 @@ const mountSuspense = async ({
 
   const wrapper = defineComponent({
     render() {
-      return h(BSuspense, null, slots);
+      return h(HSuspense, null, slots);
     },
   });
 

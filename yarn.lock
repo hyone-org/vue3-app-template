@@ -1536,10 +1536,12 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@hyone/core-ui@^1.23.0":
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/@hyone/core-ui/-/core-ui-1.23.0.tgz#a68734efa175d3fd7e76d2e7575cb161dfcc08e5"
-  integrity sha512-M4hpR/W7XLDHJAkZkTmIstM2byAqAF/EBnmaSNfpP+FZ08J5VtXcH7UJdI6j2UJbk/QkZIOem4C/gF44F51VSA==
+"@hyone/core-ui@^1.29.0":
+  version "1.29.0"
+  resolved "https://registry.yarnpkg.com/@hyone/core-ui/-/core-ui-1.29.0.tgz#e40098905e4a37e455947f4eefa7a899432d63ed"
+  integrity sha512-Oc+cJ1FcJYNAoeqD+DlK4aE4U2CbMqRNZ8Yjg7S1u/So/xYcooiX8BIm+Zk9gsz5ZpbsnZlvOBExDr/qlkvlUQ==
+  dependencies:
+    flush-promises "^1.0.2"
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"

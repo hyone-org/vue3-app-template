@@ -1,11 +1,11 @@
 <template>
-  <b-card
+  <h-card
     class="session-card-layout"
     tag="form"
     @submit.prevent.stop="$emit('submit')"
   >
     <slot />
-  </b-card>
+  </h-card>
 </template>
 
 <script setup>

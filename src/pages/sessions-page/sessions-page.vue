@@ -1,12 +1,15 @@
 <template>
   <div class="login-page">
     <div class="login-page__section-image">
-      Deu
+      Image
     </div>
+
+    <SessionCard />
   </div>
 </template>
 
 <script setup>
+import { SessionCard } from '@modules/sessions';
 // import { useRouter } from 'vue-router';
 
 // const $router = useRouter();

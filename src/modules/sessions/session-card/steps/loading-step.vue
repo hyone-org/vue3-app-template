@@ -1,6 +1,6 @@
 <template>
   <SessionCardLayout class="loading-step">
-    <b-loading color="primary" />
+    <h-loading color="primary" />
   </SessionCardLayout>
 </template>
 

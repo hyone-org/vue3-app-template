@@ -1,4 +1,4 @@
-import { createComponentWithLoader } from '@utils/promises/create-component-with-loader';
+import { createComponentWithLoader } from '@hyone/core-ui';
 import UserStep from './steps/user-step.vue';
 import PasswordStep from './steps/password-step.vue';
 import RecoveryPasswordStep from './steps/recovery-password-step.vue';
